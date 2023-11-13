@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monedas</title>
+  <link rel="stylesheet" href="tuarchivo.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container">
+    <h1> Gráfica del Valor de Monedas</h1>
+    <select id="currencyPair">
+      <option value="USD-AUD">USD a AUD</option>
+      <option value="EUR-GBP">EUR a GBP</option>
+      <option value="EUR-JPY">EUR a JPY</option>
+      <option value="EUR-CAD">EUR a CAD</option>
+      <option value="GBP-EUR">GBP a EUR</option>
+      <option value="JPY-CAD">JPY a CAD</option>
+      <option value="AUD-USD">AUD a USD</option>
+      <option value="EUR-USD">EUR a USD</option>
+      <option value="JPY-USD">JPY a USD</option>
+      <option value="CAD-USD">CAD a USD</option>
+      <option value="AUD-GBP">AUD a GBP</option>
+      <option value="USD-CHF">USD a CHF</option>
+    </select>
+  </div>
+  <div id="chart-container">
+    <canvas id="myChart"></canvas>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
